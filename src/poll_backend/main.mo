@@ -40,7 +40,7 @@ actor {
     //Need to be explicit about what to do when it is null or a number so every case is taken care of
     let current_votes_for_entry : Nat = switch votes_for_entry {
       case null 0;
-      case (?Nat) Nat;
+      case (?chris) chris;
     };
 
     //once you have the number of votes, update the votes for the entry
